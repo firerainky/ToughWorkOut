@@ -13,6 +13,8 @@
 		38D989822508980D004736F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D989812508980D004736F4 /* Assets.xcassets */; };
 		38D989852508980D004736F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D989842508980D004736F4 /* Preview Assets.xcassets */; };
 		38D989882508980D004736F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D989862508980D004736F4 /* LaunchScreen.storyboard */; };
+		38D989912508984E004736F4 /* SystemSounds.txt in Resources */ = {isa = PBXBuildFile; fileRef = 38D989902508984E004736F4 /* SystemSounds.txt */; };
+		38D98993250898A6004736F4 /* SystemSoundLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D98992250898A6004736F4 /* SystemSoundLibraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		38D989842508980D004736F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38D989872508980D004736F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D989892508980D004736F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D989902508984E004736F4 /* SystemSounds.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SystemSounds.txt; sourceTree = "<group>"; };
+		38D98992250898A6004736F4 /* SystemSoundLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSoundLibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		38D9897A2508980A004736F4 /* ToughWorkOut */ = {
 			isa = PBXGroup;
 			children = (
+				38D9898F25089821004736F4 /* Resources */,
 				38D9897B2508980A004736F4 /* AppDelegate.swift */,
 				38D9897D2508980A004736F4 /* SceneDelegate.swift */,
 				38D9897F2508980A004736F4 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				38D989862508980D004736F4 /* LaunchScreen.storyboard */,
 				38D989892508980D004736F4 /* Info.plist */,
 				38D989832508980D004736F4 /* Preview Content */,
+				38D98992250898A6004736F4 /* SystemSoundLibraryView.swift */,
 			);
 			path = ToughWorkOut;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				38D989842508980D004736F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38D9898F25089821004736F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38D989902508984E004736F4 /* SystemSounds.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,7 @@
 				38D989882508980D004736F4 /* LaunchScreen.storyboard in Resources */,
 				38D989852508980D004736F4 /* Preview Assets.xcassets in Resources */,
 				38D989822508980D004736F4 /* Assets.xcassets in Resources */,
+				38D989912508984E004736F4 /* SystemSounds.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38D9897C2508980A004736F4 /* AppDelegate.swift in Sources */,
+				38D98993250898A6004736F4 /* SystemSoundLibraryView.swift in Sources */,
 				38D9897E2508980A004736F4 /* SceneDelegate.swift in Sources */,
 				38D989802508980A004736F4 /* ContentView.swift in Sources */,
 			);

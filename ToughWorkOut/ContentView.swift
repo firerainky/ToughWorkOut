@@ -10,12 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            NavigationLink(destination: SystemSoundLibraryView()) {
+                Text("系统声音Lib")
+            }
+            .navigationBarTitle("硬派")
+        }
+        .statusBar(hidden: true)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environment(\.colorScheme, .light)
     }
 }
